@@ -37,6 +37,7 @@ Remove the margin in all browsers.
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 
@@ -314,3 +315,12 @@ body {
 .float-img { animation: float 6s ease-in-out infinite; }
 .float-img1 { animation: float1 6s ease-in-out infinite; }
 .float-img2 { animation: float2 6s ease-in-out infinite; }
+
+.svg-bg{
+  z-index: -1;
+  height: auto;
+  width: 50vw;
+  position: absolute;
+  right: 0;
+  top: -15px;
+}

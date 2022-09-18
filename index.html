@@ -24,9 +24,12 @@
 </head>
 <body>
 
-<section class="relative px-2 bg-white md:px-0 h-screen">
+<section class="text-center sm:text-left relative px-2 md:px-0 h-screen">
+  <svg class="absolute right-0 -top-16 md:w-1/2 -z-10 md:h-auto invisible md:visible" width="695" height="1151" viewBox="0 0 695 1151" fill="#4F46E5" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M695 12.4232C656.449 4.2821 616.474 0 575.5 0C257.66 0 0 257.66 0 575.5C0 893.34 257.66 1151 575.5 1151C616.474 1151 656.449 1146.72 695 1138.58V12.4232Z"/>
+  </svg>    
   <!-- ========================= NavBar start ========================= -->
-    <div class="relative w-full px-8 text-gray-700 bg-white body-font" data-tails-scripts="//unpkg.com/alpinejs">
+    <div class="relative w-full sm:px-8 text-gray-700 body-font" data-tails-scripts="//unpkg.com/alpinejs">
         <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
             <a href="#_" class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none">RAED<span class="text-indigo-600">.</span></a>
 
@@ -60,7 +63,7 @@
             <div class="relative z-10 inline-flex items-center space-x-3 md:ml-5 lg:justify-end">
                 <span class="inline-flex rounded-md shadow-sm">
                     <a href="https://drive.google.com/file/d/1LYVdgQXZ7YLJky7f9kXlJ-f9L8uJFLbX/view?usp=sharing" target="_blank"
-                    class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 whitespace-no-wrap text-indigo-600 border border-current	focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 rounded-xl">
+                    class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 whitespace-no-wrap text-indigo-600 md:text-white border border-current focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 rounded-xl">
                         Download CV
                     </a>
                 </span>
@@ -69,39 +72,78 @@
     </div>
 
     <!-- ========================= Hero-section start ========================= -->
-    <div class="container h-full items-center pb-32 mx-auto xl:px-5">
+    <div class="container sm:h-full items-center sm:pb-32 mx-auto xl:px-5">
+      <audio id="audio" class="hidden" 
+      src="src/Screen Recording (17-09-2022 23-39-45) (online-audio-converter.com).mp3"></audio>
         <div class="flex h-full flex-wrap items-center sm:-mx-3">
             <div class="w-full md:w-1/2 md:px-3">
             <div class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
                 <h1 class="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
-                  <span class="block xl:inline">Hi, I'm </span>
-                  <span class="block text-indigo-600 xl:inline">Raed !</span>
+                  <span>Hi, I'm </span>
+                  <div class="inline-block relative">
+                    <span class="block text-indigo-600 xl:inline">Raed !</span>
+                    <svg id="play" class="absolute -right-8 -top-4 cursor-pointer opacity-75 hover:opacity-100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="mdi-account-voice" width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M9,5A4,4 0 0,1 13,9A4,4 0 0,1 9,13A4,4 0 0,1 5,9A4,4 0 0,1 9,5M9,15C11.67,15 17,16.34 17,19V21H1V19C1,16.34 6.33,15 9,15M16.76,5.36C18.78,7.56 18.78,10.61 16.76,12.63L15.08,10.94C15.92,9.76 15.92,8.23 15.08,7.05L16.76,5.36M20.07,2C24,6.05 23.97,12.11 20.07,16L18.44,14.37C21.21,11.19 21.21,6.65 18.44,3.63L20.07,2Z"></path>
+                    </svg>
+                  </div>
                 </h1>
-                <p class="mt-0 text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">Get ready to turn your ideas into reality by building beautiful digital solutions!</p>
-                <div class="relative flex flex-col sm:flex-row sm:space-x-4">
-                  <a href="#huber-project" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-indigo-700 rounded-md sm:mb-0 hover:bg-indigo-600 sm:w-auto">
-                      Check My Work
-                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                  </a>
-                </div>
+                <p class="mt-0 text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">I can turn your ideas into reality by building beautiful digital solutions!</p>
+                <a href="#huber-project" class="flex justify-center items-center w-2/3 m-auto sm:m-0 px-6 py-3 mb-3 text-lg text-white bg-indigo-700 rounded-md sm:mb-0 hover:bg-indigo-600 sm:w-1/2">
+                    Check My Work
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
             </div>
             </div>
             <div class="w-1/1 md:w-1/2 relative">
               <!-- <div class="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                 <img src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg">
               </div> -->
-              <img src="img/Presentation.png" alt="" class="w-40 float-img absolute">
-              <img src="img/Laptop.png" alt="" class="right-0 w-60 float-img absolute">
-              <img src="img/Target.png" alt="" class="right-52 bottom-0 w-40 float-img absolute">
-              <img src="img/Teamwork.png" alt="" class="top-16 left-52 w-20 float-img absolute">
+              <img src="img/Presentation.png" alt="" class="top-16 w-52 float-img absolute">
+              <img src="img/Laptop.png" alt="" class="right-0 w-80 float-img absolute">
+              <img src="img/Target.png" alt="" class="right-32 bottom-0 w-40 float-img absolute">
+              <img src="img/Teamwork.png" alt="" class="-top-16 left-52 w-20 float-img absolute">
+              <img src="img/Cloud.png" alt="" class="bottom-8 left-0 w-40 float-img absolute">
             </div>
         </div>
     </div>
-    <a href="#about" class="w-full absolute bottom-0 left-2/4">
-      <svg class="animate-bounce h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="#4F46E5" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z" />
-      </svg>
-    </a>
+    <div class="container flex items-center w-1/2 absolute bottom-6 justify-between">
+      <span class="inline-flex justify-center mt-4 space-x-2">
+        <a href="https://www.facebook.com/raed.benmaghzouz/" target="_blank" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">Facebook</span>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+            </svg>
+        </a>
+
+        <a href="https://github.com/BenMaghzouz-Raed" target="_blank" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">GitHub</span>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+            </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/raed-ben-maghzouz/" target="_blank" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">LinkedIn</span>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="none" fill-rule="evenodd" d="M0 0h24v24H0z"/><path d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z" clip-rule="evenodd"/>                
+            </svg>
+        </a>
+
+        <a href="mailto:raed.maghzouz@gmail.com" class="text-gray-400 hover:text-gray-500">
+          <span class="sr-only">Facebook</span>
+          <svg id="mdi-gmail" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20,18H18V9.25L12,13L6,9.25V18H4V6H5.2L12,10.25L18.8,6H20M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"></path>
+          </svg>
+        </a>
+      </span>
+      <a href="#about" class="pt-8">
+        <svg class="animate-bounce h-8 w-8" viewBox="0 0 24 24"
+        stroke-width="1.5" stroke="#4F46E5" fill="#fff">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z" />
+        </svg>
+      </a>
+    </div>
+
 </section>
 
 
@@ -217,9 +259,9 @@
 
 <!-- ========================= Huber Project section start ========================= -->
 <section>
-  <div class="lg:max-h-full px-4 py-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+  <div class="h-full px-4 py-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 lg:grid-cols-2 lg:h-screen" id="huber-project">
-      <div class="relative z-10 lg:py-16">
+      <div class="relative z-10 lg:py-16 mb-24 lg:m-0">
         <div class="relative h-64 sm:h-80 lg:h-full">
           <img
             class="absolute inset-0 object-cover w-full shadow-2xl float-img"
@@ -291,8 +333,8 @@
 
 <!-- ========================= Quiz App section start ========================= -->
 <section>
-  <div class="lg:max-h-full px-4 py-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 lg:grid-cols-2 lg:h-screen">
+  <div class="h-ful px-4 py-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:grid-cols-2">
       <div class="relative flex items-center bg-gray-100">
         <span
           class="hidden lg:inset-y-0 lg:absolute lg:w-16 lg:bg-gray-100 lg:block lg:-right-16"
@@ -316,26 +358,26 @@
           <p class="mt-4 text-gray-600">
             If you want to know more about how this application works and the methods used to create it, 
             <a data-bs-toggle="modal" data-bs-target="#modal5" class="cursor-pointer text-indigo-600"><b>click here</b></a>.</p>
-          <div class="flex justify-between mt-8">
-            <div class="flex my-2">
-              <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+          <div class="flex items-start justify-between mt-8">
+            <div class="flex items-center flex-wrap w-4/5">
+              <strong class="my-2 text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                 React Native
               </strong>
-              <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+              <strong class="my-2 text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                 Django
               </strong>
-              <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+              <strong class="my-2 text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                 Machine Learning
               </strong>
-              <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+              <strong class="my-2 text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                 NLP
               </strong>
-              <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+              <strong class="my-2 text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                 RestAPI
               </strong>
             </div>
 
-            <div class="flex justify-center items-center">
+            <div class="flex justify-center items-center mt-2">
               <a href="https://github.com/BenMaghzouz-Raed/YoutubeSummarizerQuiz_Server" target="_blank"
               class="rounded-lg text-slate-900 font-semibold transition flex items-center gap-3 text-[0.8125rem] leading-6 py-1 px-1.5 hover:bg-slate-900/[0.03] -my-1 -mx-1.5" href="https://github.com/tailwindlabs/heroicons">
                 <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-slate-900"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.463 2 11.97c0 4.404 2.865 8.14 6.839 9.458.5.092.682-.216.682-.48 0-.236-.008-.864-.013-1.695-2.782.602-3.369-1.337-3.369-1.337-.454-1.151-1.11-1.458-1.11-1.458-.908-.618.069-.606.069-.606 1.003.07 1.531 1.027 1.531 1.027.892 1.524 2.341 1.084 2.91.828.092-.643.35-1.083.636-1.332-2.22-.251-4.555-1.107-4.555-4.927 0-1.088.39-1.979 1.029-2.675-.103-.252-.446-1.266.098-2.638 0 0 .84-.268 2.75 1.022A9.607 9.607 0 0 1 12 6.82c.85.004 1.705.114 2.504.336 1.909-1.29 2.747-1.022 2.747-1.022.546 1.372.202 2.386.1 2.638.64.696 1.028 1.587 1.028 2.675 0 3.83-2.339 4.673-4.566 4.92.359.307.678.915.678 1.846 0 1.332-.012 2.407-.012 2.734 0 .267.18.577.688.48 3.97-1.32 6.833-5.054 6.833-9.458C22 6.463 17.522 2 12 2Z"></path></svg>
@@ -345,17 +387,17 @@
         </div>
       </div>
 
-      <div class="relative z-10 lg:py-16">
-        <div class="flex relative h-64 sm:h-80 lg:h-full">
+      <div class="relative z-10 lg:py-16 pr-8">
+        <div class="flex justify-around relative h-64 sm:h-80 lg:h-full">
           <img
             class="object-cover h-full float-img "
-            src="img/5.png"
+            src="img/App/phone1.png"
             alt="Indoors house"
             style="max-height:500px; -webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);"
           />
           <img
-            class="object-cover h-full float-img "
-            src="img/6.png"
+            class="object-cover h-full float-img"
+            src="img/App/phone2.png"
             alt="Indoors house"
             style="max-height:500px; -webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);"
           />
@@ -376,7 +418,7 @@
         <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
           <div class="relative">
             <div class="mb-10 group ">
-              <div class="cursor-pointer mb-2 relative w-full overflow-hidden bg-white hover:shadow-2xl hover:opacity-95 transition duration-200 ease-in-out sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1">
+              <div class="shadow cursor-pointer mb-2 relative w-full overflow-hidden bg-white hover:shadow-2xl hover:opacity-95 transition duration-200 ease-in-out sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1">
                 <a data-bs-toggle="modal" data-bs-target="#modal1">
                   <img src="img/IoT/rpi 1.jpg" class="h-full w-full object-cover object-center">
                 </a>
@@ -400,29 +442,29 @@
                   Smart Security System for Businesses using IoT
                 </a>
                 
-                <p class="text-base text-body-color">
+                <p class="text-base text-gray-600">
                   An IoT solution that provides smart security could be used with a flying drone or fixed in a corner.
                 </p>
-                <p class="text-base text-body-color">
+                <p class="text-base text-gray-600">
                   It detects faces using a machine learning module and sends an SMS notification if it detects an unknown person in the area.
                 </p>
-                <p class="text-base text-body-color">
+                <p class="text-base text-gray-600">
                   In addition, this system can detect fires and trigger an alarm if it detects one. All these features can be managed and monitored by the user through an interface.                 </p>
               </div>
-              <div class="flex my-2">
-                <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+              <div class="flex flex-wrap my-2">
+                <strong class="text-indigo-500 border border-current mb-2 mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                   Raspberry Pi 4
                 </strong>
-                <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+                <strong class="text-indigo-500 border border-current mb-2 mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                   Arduino
                 </strong>
-                <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+                <strong class="text-indigo-500 border border-current mb-2 mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                   Flask
                 </strong>
-                <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+                <strong class="text-indigo-500 border border-current mb-2 mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                   OpenCV
                 </strong>
-                <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+                <strong class="text-indigo-500 border border-current mb-2 mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                   SQLite
                 </strong>
               </div>
@@ -432,7 +474,7 @@
           <!-- ===================== Project 2 ===================== -->
           <div class="relative">
             <div class="mb-10 group">
-              <div class="cursor-pointer mb-2 relative w-full overflow-hidden bg-white hover:shadow-2xl hover:opacity-95 transition duration-200 ease-in-out sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1">
+              <div class="shadow cursor-pointer mb-2 relative w-full overflow-hidden bg-white hover:shadow-2xl hover:opacity-95 transition duration-200 ease-in-out sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1">
                 <a data-bs-toggle="modal" data-bs-target="#modal2">
                   <img src="img/Dashboard/Dashboard 1.JPG" class="h-full w-full object-cover object-center">
                 </a>
@@ -444,10 +486,6 @@
                   </span>
 
                   <div class="flex justify-center items-center">
-                    <a class="mr-2 rounded-lg text-slate-900 font-semibold transition flex items-center gap-3 text-[0.8125rem] leading-6 py-1 px-1.5 hover:bg-slate-900/[0.03] -my-1 -mx-1.5" 
-                      href="https://gct-guenenna-new-version.herokuapp.com/" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" /></svg>                                              
-                    </a>
                     <a 
                     href="https://github.com/BenMaghzouz-Raed/node-dashboard" target="_blank"
                     class="rounded-lg text-slate-900 font-semibold transition flex items-center gap-3 text-[0.8125rem] leading-6 py-1 px-1.5 hover:bg-slate-900/[0.03] -my-1 -mx-1.5" href="https://github.com/tailwindlabs/heroicons">
@@ -459,29 +497,29 @@
                   class="cursor-pointer font-semibold text-xl sm:text-2xl lg:text-xl xl:text-2xl mb-4 inline-block text-dark hover:text-primary">  
                     Dashboard to analyze data from an Excel file
                 </a>
-                <p class="text-base text-body-color">
+                <p class="text-base text-gray-600">
                   This dashboard was created for a Laboratory to allow the administrator to insert an excel file that contains the results 
                   of humidity and temperatures for each minute of the day (1440 columns; some older files contain more than 42000 columns).
                 </p>
-                <p class="text-base text-body-color">
+                <p class="text-base text-gray-600">
                   After inserting the file, the dashboard converts the data into graphs and colors in red the unsatisfactory results. 
                   The main purpose of the dashboard is to simplify the analysis and the follow-up of the results.
                 </p>
               </div>
-              <div class="flex my-2">
-                <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+              <div class="flex flex-wrap my-2">
+                <strong class="text-indigo-500 border border-current mb-2 mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                   React
                 </strong>
-                <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+                <strong class="text-indigo-500 border border-current mb-2 mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                   Material UI
                 </strong>
-                <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+                <strong class="text-indigo-500 border border-current mb-2 mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                   Node.js
                 </strong>
-                <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+                <strong class="text-indigo-500 border border-current mb-2 mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                   Express.js
                 </strong>
-                <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
+                <strong class="text-indigo-500 border border-current mb-2 mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                   MySQL
                 </strong>
               </div>
@@ -491,7 +529,7 @@
           <!-- ===================== Project 3 ===================== -->
           <div class="relative">
               <div class="mb-10 group">
-                <div class="cursor-pointer mb-2 relative w-full overflow-hidden bg-white hover:shadow-2xl hover:opacity-95 transition duration-200 ease-in-out sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1">
+                <div class="shadow cursor-pointer mb-2 relative w-full overflow-hidden bg-white hover:shadow-2xl hover:opacity-95 transition duration-200 ease-in-out sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1">
                   <a href="https://gct-guenenna-new-version.herokuapp.com/" target="_blank">
                     <img src="img/gct 1.JPG" class="h-full w-full object-cover object-center">
                   </a>
@@ -521,10 +559,10 @@
                       class="cursor-pointer font-semibold text-xl sm:text-2xl lg:text-xl xl:text-2xl mb-4 inline-block text-dark hover:text-primary">  
                       Website for an Import-Export Company
                   </a>
-                  <p class="text-base text-body-color">
+                  <p class="text-base text-gray-600">
                     Thanks to the fundamentals of UI/UX I redesigned this static site using Figma then using html,scss,javascript I converted the design into a real website.
                   </p>
-                  <p class="text-base text-body-color">
+                  <p class="text-base text-gray-600">
                     Using PHP I made it multi-language (French, English, German) and I enabled the communication feature with PHPMailer.
                   </p>
                 </div>
@@ -602,13 +640,13 @@
           <img src="img/IoT/Picture4.png" alt="" class="w-full">
           <p class="mt-2 text-gray-500 text-center">Add Image of a person</p>
         </div>
-
-        <p>This is some placeholder content to show the scrolling behavior for modals. We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. When content becomes longer than the predefined max-height of modal, content will be cropped and scrollable within the modal.</p>
-        <video controls class="max-h-96">
-          <source src="img/IoT/Media1.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-
+        <div class="flex flex-col items-center w-4/5 mt-4 mb-8 mx-auto">
+          <video controls class="max-h-96">
+            <source src="img/IoT/Media1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>          
+          <p class="mt-2 text-gray-500 text-center">Domstrartive video of the flying drone with the raspberry pi</p>
+        </div>        
       </div>
       <div
         class="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md">
@@ -850,7 +888,7 @@
 </div>
 <!-- ========================= Contact section start ========================= -->
 <section class="w-full px-8 py-16 bg-gray-100 xl:px-8">
-    <div class="max-w-5xl mx-auto">
+    <div class="container mx-auto">
         <div class="flex flex-col items-center md:flex-row">
 
             <div class="w-full space-y-5 md:w-3/5 md:pr-16">
@@ -912,6 +950,13 @@
                     <path fill="none" fill-rule="evenodd" d="M0 0h24v24H0z"/><path d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z" clip-rule="evenodd"/>                
                 </svg>
             </a>
+
+            <a href="mailto:raed.maghzouz@gmail.com" class="text-gray-400 hover:text-gray-500">
+              <span class="sr-only">Facebook</span>
+              <svg id="mdi-gmail" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20,18H18V9.25L12,13L6,9.25V18H4V6H5.2L12,10.25L18.8,6H20M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"></path>
+              </svg>
+          </a>
         </span>
     </div>
 </section>
