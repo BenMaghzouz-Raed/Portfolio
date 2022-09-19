@@ -25,13 +25,24 @@
 <body>
 
 <section class="text-center sm:text-left relative px-2 md:px-0 h-screen">
-  <svg class="absolute right-0 -top-16 md:w-1/2 -z-10 md:h-auto invisible md:visible" width="695" height="1151" viewBox="0 0 695 1151" fill="#4F46E5" xmlns="http://www.w3.org/2000/svg">
+  <!-- Illustration 1-->
+  <svg class="opacity-80 absolute right-0 -top-16 md:w-1/2 -z-10 md:h-auto invisible md:visible" width="695" height="1151" viewBox="0 0 695 1151" fill="#4F46E5" xmlns="http://www.w3.org/2000/svg">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M695 12.4232C656.449 4.2821 616.474 0 575.5 0C257.66 0 0 257.66 0 575.5C0 893.34 257.66 1151 575.5 1151C616.474 1151 656.449 1146.72 695 1138.58V12.4232Z"/>
   </svg>    
+
+  <!-- Illustration 2-->
+  <svg class="opacity-80 absolute -left-64 -bottom-48 md:w-1/2 -z-10 md:h-auto invisible md:visible" width="691" height="346" viewBox="0 0 691 346" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M691 346C691 345.833 691 345.667 691 345.5C691 154.686 536.314 0 345.5 0C154.686 0 0 154.686 0 345.5C0 345.667 0.00012207 345.833 0.000366211 346H691Z" fill="#4F46E5"/>
+    </svg>
+    
   <!-- ========================= NavBar start ========================= -->
     <div class="relative w-full sm:px-8 text-gray-700 body-font" data-tails-scripts="//unpkg.com/alpinejs">
-        <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
-            <a href="#_" class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none">RAED<span class="text-indigo-600">.</span></a>
+        <div class="container flex flex-col flex-wrap items-center justify-between py-2 mx-auto md:flex-row max-w-7xl">
+            <a href="#" class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none">
+              <svg width="54" height="54" viewBox="0 0 144 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M71.3708 3.17776e-05L95.8193 52.3483C109.635 81.8969 117.347 98.6956 119.767 104.498L121.064 107.284L108.064 107.284L96.6781 107.284C96.3937 106.972 93.4147 100.304 89.0776 90.5956L89.076 90.592L89.0759 90.5917L89.0757 90.5912C85.8612 83.3956 81.9009 74.5306 77.7388 65.3459L70.4011 49.2557C67.9493 44.1872 65.6353 39.4277 63.6 35.2414L63.5966 35.2344L63.5965 35.2341L63.5961 35.2334C58.946 25.6688 55.7519 19.099 55.6958 18.6807L63.0146 9.95858L71.3708 3.17776e-05ZM29.1031 4.67696C45.8851 15.4063 43.6697 49.0984 30.3018 55.9851L23.6697 58.6378L29.3695 60.5244C37.1697 64.6628 40.0247 70.0157 41.3566 82.3957C42.5553 93.8128 45.0859 99.8653 50.1472 103.992C50.9352 104.631 51.8345 105.254 52.6104 105.792L52.6109 105.792L52.611 105.792C53.6708 106.527 54.5 107.101 54.5 107.339C54.0475 107.339 53.4106 107.348 52.6316 107.358H52.6314H52.6312H52.6309C47.3908 107.427 35.7232 107.581 30.5 105.833C27.0371 104.87 22.5768 101.929 19.6466 98.9024C15.3845 94.5006 14 90.2687 12.5 82.3957C10.5 70.6877 9.52417 67.1271 4.59613 62.8629L0 59.642L4.46294 56.6729C9.25779 53.3716 14.7186 42.2296 15.6509 33.2885C16.9828 22.6967 13.2535 11.2796 6.4608 4.67696L1 7.37314e-05H11.9216C20.8453 0.550295 23.7755 1.37563 29.1031 4.67696ZM138 107C141.314 107 144 104.314 144 101C144 97.6863 141.314 95 138 95C134.686 95 132 97.6863 132 101C132 104.314 134.686 107 138 107Z" fill="#4F46E5"/>
+              </svg>                 
+            </a>
 
             <nav class="z-0 flex items-center justify-center h-full py-5 -ml-0 text-base md:-ml-5 md:py-0">
                 <a href="#about" class="mr-12 relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
@@ -63,7 +74,7 @@
             <div class="relative z-10 inline-flex items-center space-x-3 md:ml-5 lg:justify-end">
                 <span class="inline-flex rounded-md shadow-sm">
                     <a href="https://drive.google.com/file/d/1LYVdgQXZ7YLJky7f9kXlJ-f9L8uJFLbX/view?usp=sharing" target="_blank"
-                    class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 whitespace-no-wrap text-indigo-600 md:text-white border border-current focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 rounded-xl">
+                    class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 whitespace-no-wrap text-indigo-600 md:text-white border-2 border-current focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 rounded-xl">
                         Download CV
                     </a>
                 </span>
@@ -72,7 +83,7 @@
     </div>
 
     <!-- ========================= Hero-section start ========================= -->
-    <div class="container sm:h-full items-center sm:pb-32 mx-auto xl:px-5">
+    <div class="container mt-36 sm:mt-0 sm:h-full items-center sm:pb-32 mx-auto xl:px-5">
       <audio id="audio" class="hidden" 
       src="src/Screen Recording (17-09-2022 23-39-45) (online-audio-converter.com).mp3"></audio>
         <div class="flex h-full flex-wrap items-center sm:-mx-3">
@@ -88,7 +99,7 @@
                   </div>
                 </h1>
                 <p class="mt-0 text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">I can turn your ideas into reality by building beautiful digital solutions!</p>
-                <a href="#huber-project" class="flex justify-center items-center w-2/3 m-auto sm:m-0 px-6 py-3 mb-3 text-lg text-white bg-indigo-700 rounded-md sm:mb-0 hover:bg-indigo-600 sm:w-1/2">
+                <a href="#huber-project" class="drop-shadow-md flex justify-center items-center w-2/3 m-auto sm:m-0 px-6 py-3 mb-3 text-lg text-white bg-indigo-700 rounded-md sm:mb-0 hover:bg-indigo-600 sm:w-1/2">
                     Check My Work
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                 </a>
@@ -106,37 +117,7 @@
             </div>
         </div>
     </div>
-    <div class="container flex items-center w-1/2 absolute bottom-6 justify-between">
-      <span class="inline-flex justify-center mt-4 space-x-2">
-        <a href="https://www.facebook.com/raed.benmaghzouz/" target="_blank" class="text-gray-400 hover:text-gray-500">
-            <span class="sr-only">Facebook</span>
-            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
-            </svg>
-        </a>
-
-        <a href="https://github.com/BenMaghzouz-Raed" target="_blank" class="text-gray-400 hover:text-gray-500">
-            <span class="sr-only">GitHub</span>
-            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
-            </svg>
-        </a>
-
-        <a href="https://www.linkedin.com/in/raed-ben-maghzouz/" target="_blank" class="text-gray-400 hover:text-gray-500">
-            <span class="sr-only">LinkedIn</span>
-            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path fill="none" fill-rule="evenodd" d="M0 0h24v24H0z"/><path d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z" clip-rule="evenodd"/>                
-            </svg>
-        </a>
-
-        <a href="mailto:raed.maghzouz@gmail.com" class="text-gray-400 hover:text-gray-500">
-          <span class="sr-only">Facebook</span>
-          <svg id="mdi-gmail" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M20,18H18V9.25L12,13L6,9.25V18H4V6H5.2L12,10.25L18.8,6H20M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"></path>
-          </svg>
-        </a>
-      </span>
-      <a href="#about" class="pt-8">
+      <a href="#about" class="w-full absolute bottom-6 left-1/2">
         <svg class="animate-bounce h-8 w-8" viewBox="0 0 24 24"
         stroke-width="1.5" stroke="#4F46E5" fill="#fff">
             <path stroke-linecap="round" stroke-linejoin="round" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z" />
@@ -190,17 +171,17 @@
         <p class="mt-2 text-lg text-center text-gray-600">Only those skills that I have mastered through experience and practice,<br/>or for which I have been certified.</p>
         <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
 
-            <div class="relative flex flex-col items-center lg:justify-start justify-between col-span-4 px-8 py-6 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl">
+            <div class="hover:drop-shadow-md transition duration-200 ease-in-out relative flex flex-col items-center lg:justify-start justify-between col-span-4 px-8 py-6 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl">
               <div class="flex lg:flex-row w-full items-center flex-col">
                 <div class="p-3 lg:mr-6 text-white bg-indigo-600 rounded-full">                    
                   <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M5 8v-3a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-5"></path><circle cx="6" cy="14" r="3"></circle><path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5"></path></svg>
                 </div>
                 <h4 class="text-xl lg:text-left text-center font-medium text-gray-700">Software Development</h4>
               </div>
-              <p class="text-base lg:text-left text-center text-gray-500">Fullstack development of software and applications in programming languages like C#, Java, Python, etc.</p>
+              <p class="text-base lg:text-left text-center text-gray-500">Full stack development of programs (or software) used in computer systems in programming languages like C#, Java, Python, C++.</p>
             </div>
 
-            <div class="flex flex-col items-center lg:justify-start justify-between col-span-4 px-8 py-6 space-y-4 bg-gray-100 sm:rounded-xl">
+            <div class="hover:drop-shadow-md transition duration-200 ease-in-out flex flex-col items-center lg:justify-start justify-between col-span-4 px-8 py-6 space-y-4 bg-gray-100 sm:rounded-xl">
               <div class="flex lg:flex-row w-full items-center flex-col">
                 <div class="p-3 lg:mr-6 text-white bg-indigo-600 rounded-full">                  
                   <svg class="w-8 h-8" fill="currentColor" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M16.36,14C16.44,13.34 16.5,12.68 16.5,12C16.5,11.32 16.44,10.66 16.36,10H19.74C19.9,10.64 20,11.31 20,12C20,12.69 19.9,13.36 19.74,14M14.59,19.56C15.19,18.45 15.65,17.25 15.97,16H18.92C17.96,17.65 16.43,18.93 14.59,19.56M14.34,14H9.66C9.56,13.34 9.5,12.68 9.5,12C9.5,11.32 9.56,10.65 9.66,10H14.34C14.43,10.65 14.5,11.32 14.5,12C14.5,12.68 14.43,13.34 14.34,14M12,19.96C11.17,18.76 10.5,17.43 10.09,16H13.91C13.5,17.43 12.83,18.76 12,19.96M8,8H5.08C6.03,6.34 7.57,5.06 9.4,4.44C8.8,5.55 8.35,6.75 8,8M5.08,16H8C8.35,17.25 8.8,18.45 9.4,19.56C7.57,18.93 6.03,17.65 5.08,16M4.26,14C4.1,13.36 4,12.69 4,12C4,11.31 4.1,10.64 4.26,10H7.64C7.56,10.66 7.5,11.32 7.5,12C7.5,12.68 7.56,13.34 7.64,14M12,4.03C12.83,5.23 13.5,6.57 13.91,8H10.09C10.5,6.57 11.17,5.23 12,4.03M18.92,8H15.97C15.65,6.75 15.19,5.55 14.59,4.44C16.43,5.07 17.96,6.34 18.92,8M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"></path></svg>                </div>
@@ -210,7 +191,7 @@
               <br/>Backend: Node.js, GraphQL, Express.js, PHP, J2EE</p>
             </div>
 
-            <div class="flex flex-col items-center lg:justify-start justify-between col-span-4 px-8 py-6 space-y-4 bg-gray-100 sm:rounded-xl">
+            <div class="hover:drop-shadow-md transition duration-200 ease-in-out flex flex-col items-center lg:justify-start justify-between col-span-4 px-8 py-6 space-y-4 bg-gray-100 sm:rounded-xl">
               <div class="flex lg:flex-row w-full items-center flex-col">
                 <div class="p-3 lg:mr-6 text-white bg-indigo-600 rounded-full">
                   <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3"></polyline><line x1="12" y1="12" x2="20" y2="7.5"></line><line x1="12" y1="12" x2="12" y2="21"></line><line x1="12" y1="12" x2="4" y2="7.5"></line><line x1="16" y1="5.25" x2="8" y2="9.75"></line></svg>
@@ -221,17 +202,17 @@
               I learned how to apply processes, methods, skills and experience to achieve specific project goals.</p>
             </div>
 
-            <div class="flex flex-col items-center lg:justify-start justify-between col-span-4 px-8 py-6 space-y-4 bg-gray-100 sm:rounded-xl">
+            <div class="hover:drop-shadow-md transition duration-200 ease-in-out flex flex-col items-center lg:justify-start justify-between col-span-4 px-8 py-6 space-y-4 bg-gray-100 sm:rounded-xl">
               <div class="flex lg:flex-row w-full items-center flex-col">
                 <div class="p-3 lg:mr-6 text-white bg-indigo-600 rounded-full">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height="28" width="28" stroke="none" fill="currentColor"><path d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg>
                 </div>
                 <h4 class="text-xl lg:text-left text-center  font-medium text-gray-700">Mobile Development</h4>
               </div>
-              <p class="text-base lg:text-left text-center text-gray-500">Mobile development is not my strongest skill, however I could create any application using react native or flutter.</p>
+              <p class="text-base lg:text-left text-center text-gray-500">Using React Native or Flutter, I could develop a hybrid mobile application where the front-end works both on Android/IOS and integrate it with a back-end.</p>
             </div>
 
-            <div class="flex flex-col items-center lg:justify-start justify-between col-span-4 px-8 py-6 space-y-4 bg-gray-100 sm:rounded-xl">
+            <div class="hover:drop-shadow-md transition duration-200 ease-in-out flex flex-col items-center lg:justify-start justify-between col-span-4 px-8 py-6 space-y-4 bg-gray-100 sm:rounded-xl">
               <div class="flex lg:flex-row w-full items-center flex-col">
                 <div class="p-3 lg:mr-6 text-white bg-indigo-600 rounded-full">
                   <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M8 9l3 3l-3 3"></path><line x1="13" y1="15" x2="16" y2="15"></line><rect x="3" y="4" width="18" height="16" rx="2"></rect></svg>       
@@ -241,14 +222,14 @@
                 <p class="text-base lg:text-left text-center text-gray-500">Thanks to the Google UX Design certificate and self-learning, I have mastered the principles of designing a great user experience and interface.</p>
             </div>
 
-            <div class="flex flex-col items-center lg:justify-start justify-between col-span-4 px-8 py-6 space-y-4 bg-gray-100 sm:rounded-xl">
+            <div class="hover:drop-shadow-md transition duration-200 ease-in-out flex flex-col items-center lg:justify-start justify-between col-span-4 px-8 py-6 space-y-4 bg-gray-100 sm:rounded-xl">
               <div class="flex lg:flex-row w-full items-center flex-col">
                 <div class="p-3 lg:mr-6 text-white bg-indigo-600 rounded-full">
                   <svg stroke="none" fill="currentColor" width="32" height="32" viewBox="0 0 24 24"><path d="M4 7C4 4.79 7.58 3 12 3S20 4.79 20 7 16.42 11 12 11 4 9.21 4 7M12.08 18L12 18C7.58 18 4 16.21 4 14V17C4 19.21 7.58 21 12 21C12.1 21 12.2 21 12.29 21C12.11 20.36 12 19.69 12 19C12 18.66 12.03 18.33 12.08 18M20 12.08C20 12.05 20 12.03 20 12V9C20 11.21 16.42 13 12 13S4 11.21 4 9V12C4 14.21 7.58 16 12 16C12.23 16 12.46 16 12.69 16C13.82 13.63 16.22 12 19 12C19.34 12 19.67 12.03 20 12.08M23.8 20.4C23.9 20.4 23.9 20.5 23.8 20.6L22.8 22.3C22.7 22.4 22.6 22.4 22.5 22.4L21.3 22C21 22.2 20.8 22.3 20.5 22.5L20.3 23.8C20.3 23.9 20.2 24 20.1 24H18.1C18 24 17.9 23.9 17.8 23.8L17.6 22.5C17.3 22.4 17 22.2 16.8 22L15.6 22.5C15.5 22.5 15.4 22.5 15.3 22.4L14.3 20.7C14.2 20.6 14.3 20.5 14.4 20.4L15.5 19.6V18.6L14.4 17.8C14.3 17.7 14.3 17.6 14.3 17.5L15.3 15.8C15.4 15.7 15.5 15.7 15.6 15.7L16.8 16.2C17.1 16 17.3 15.9 17.6 15.7L17.8 14.4C17.8 14.3 17.9 14.2 18.1 14.2H20.1C20.2 14.2 20.3 14.3 20.3 14.4L20.5 15.7C20.8 15.8 21.1 16 21.4 16.2L22.6 15.7C22.7 15.7 22.9 15.7 22.9 15.8L23.9 17.5C24 17.6 23.9 17.7 23.8 17.8L22.7 18.6V19.6L23.8 20.4M20.5 19C20.5 18.2 19.8 17.5 19 17.5S17.5 18.2 17.5 19 18.2 20.5 19 20.5 20.5 19.8 20.5 19Z"></path></svg>
                 </div>
                 <h4 class="text-xl lg:text-left text-center font-medium text-gray-700">Database Development <br/>& Maintenance</h4>
               </div>  
-              <p class="text-base lg:text-left text-center text-gray-500">I understand the concepts, design and development of databases, in order to build a powerful but well structured database. 
+              <p class="text-base lg:text-left text-center text-gray-500">I understand the concepts, design and development of databases, in order to build a powerful and well structured database. 
                   <br/>Using UML diagrams, MySQL, SQLite, MangoDB, Microsoft SQL Server </p>
             </div>
 
@@ -304,7 +285,7 @@
             please contact me.<br/>
             And you can see more details about this software by clicking here.
           </p>
-          <div class="flex justify-between mt-8 items-center ">
+          <div class="flex flex-wrap justify-between mt-8 items-center ">
             <div class="flex my-2">
               <strong class="text-indigo-500 border border-current mr-3 px-3 py-1.5 rounded text-[10px] font-medium">
                 WPF
@@ -342,7 +323,7 @@
 
         <div class="p-8 sm:p-16 lg:p-24">
           <h2 class="mb-8 text-4xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">
-            YouQuiz App
+            YouLearn App
           </h2>
 
           <p class="mt-4 text-gray-600">
@@ -351,7 +332,7 @@
 
           <p class="mt-4 text-gray-600">
             It's an idea that came to me to make the youtube platform easier and more fun to learn from.
-            So this android/IOS application allows you to summarize 80% of the youtube videos (the ones with english subtitles) 
+            So this android/IOS application allows you to summarize 74% of the youtube videos (the ones with english subtitles) 
             and then it gives you a quiz generated from the video summary to see if you understand it or not.
           </p>
 
@@ -387,7 +368,7 @@
         </div>
       </div>
 
-      <div class="relative z-10 lg:py-16 pr-8">
+      <div class="relative z-10 lg:py-16 sm:pr-8">
         <div class="flex justify-around relative h-64 sm:h-80 lg:h-full">
           <img
             class="object-cover h-full float-img "
@@ -412,7 +393,7 @@
 <section class="pb-10 lg:pb-20">
     <div class="container">
       <div class="mx-auto max-w-2xl lg:max-w-none">
-        <h2 class="text-2xl font-bold text-gray-900">More projects & challenges</h2>
+        <h2 class="text-4xl font-bold tracking-tight text-center mb-8">More projects & challenges</h2>
         
         <!-- ===================== Project 1 ===================== -->
         <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
@@ -749,7 +730,7 @@
           </div>
         </div>
         <p>To track any tool and get all the information available about it, I designed this popup that appears when you double-click on a tool line.</p>
-        <div class="flex items-center justify-around mb-8 mt-4">
+        <div class="flex items-start justify-around mb-8 mt-4">
           <div class="flex flex-col items-center w-1/3 mr-4">
             <img src="img/Huber/singleTool.PNG" alt="" class="w-full">
             <p class="mt-2 text-gray-500">Characteristics</p>
@@ -765,7 +746,7 @@
         </div>
         <p>Getting tools in and out is a daily task for workers and it has to be quick. This window will make the transaction easy and error free.</p>
         <p>The user can add a new tool during the transaction or select the one he wants by searching its name. He can also update the price if it is an input tool and add a comment.</p>  
-        <div class="flex items-center justify-around mb-8 mt-4">
+        <div class="flex items-start justify-around mb-8 mt-4">
           <div class="flex flex-col items-center w-1/3 mr-5">
             <img src="img/Huber/reception2.JPG" alt="" class="w-full">
             <p class="mt-2 text-gray-500">Add new tool (for reception)</p>
@@ -892,7 +873,7 @@
         <div class="flex flex-col items-center md:flex-row">
 
             <div class="w-full space-y-5 md:w-3/5 md:pr-16">
-                <p class="font-medium text-indigo-600 uppercase">Building Projects</p>
+                <p class="font-medium text-indigo-600 uppercase">CONTACT</p>
                 <h2 class="text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl">
                   Let's work together on your next project                
                 </h2>
@@ -925,39 +906,42 @@
 
 <!-- ========================= Footer section start ========================= -->
 <section class="text-gray-700 bg-white body-font" id="Contact">
-    <div class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
-        <a href="#_" class="text-xl font-black leading-none text-gray-900 select-none logo">RAED<span class="text-indigo-600">.</span></a>
-        <p class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2022 - Raed Ben Maghzouz
-        </p>
-        <span class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
-            <a href="https://www.facebook.com/raed.benmaghzouz/" target="_blank" class="text-gray-400 hover:text-gray-500">
-                <span class="sr-only">Facebook</span>
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
-                </svg>
-            </a>
-
-            <a href="https://github.com/BenMaghzouz-Raed" target="_blank" class="text-gray-400 hover:text-gray-500">
-                <span class="sr-only">GitHub</span>
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
-                </svg>
-            </a>
-
-            <a href="https://www.linkedin.com/in/raed-ben-maghzouz/" target="_blank" class="text-gray-400 hover:text-gray-500">
-                <span class="sr-only">LinkedIn</span>
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path fill="none" fill-rule="evenodd" d="M0 0h24v24H0z"/><path d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z" clip-rule="evenodd"/>                
-                </svg>
-            </a>
-
-            <a href="mailto:raed.maghzouz@gmail.com" class="text-gray-400 hover:text-gray-500">
+    <div class="container flex flex-col items-end px-8 py-8 mx-auto max-w-7xl sm:flex-row">
+      <a href="#" class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none">
+        <svg width="54" height="54" viewBox="0 0 144 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M71.3708 3.17776e-05L95.8193 52.3483C109.635 81.8969 117.347 98.6956 119.767 104.498L121.064 107.284L108.064 107.284L96.6781 107.284C96.3937 106.972 93.4147 100.304 89.0776 90.5956L89.076 90.592L89.0759 90.5917L89.0757 90.5912C85.8612 83.3956 81.9009 74.5306 77.7388 65.3459L70.4011 49.2557C67.9493 44.1872 65.6353 39.4277 63.6 35.2414L63.5966 35.2344L63.5965 35.2341L63.5961 35.2334C58.946 25.6688 55.7519 19.099 55.6958 18.6807L63.0146 9.95858L71.3708 3.17776e-05ZM29.1031 4.67696C45.8851 15.4063 43.6697 49.0984 30.3018 55.9851L23.6697 58.6378L29.3695 60.5244C37.1697 64.6628 40.0247 70.0157 41.3566 82.3957C42.5553 93.8128 45.0859 99.8653 50.1472 103.992C50.9352 104.631 51.8345 105.254 52.6104 105.792L52.6109 105.792L52.611 105.792C53.6708 106.527 54.5 107.101 54.5 107.339C54.0475 107.339 53.4106 107.348 52.6316 107.358H52.6314H52.6312H52.6309C47.3908 107.427 35.7232 107.581 30.5 105.833C27.0371 104.87 22.5768 101.929 19.6466 98.9024C15.3845 94.5006 14 90.2687 12.5 82.3957C10.5 70.6877 9.52417 67.1271 4.59613 62.8629L0 59.642L4.46294 56.6729C9.25779 53.3716 14.7186 42.2296 15.6509 33.2885C16.9828 22.6967 13.2535 11.2796 6.4608 4.67696L1 7.37314e-05H11.9216C20.8453 0.550295 23.7755 1.37563 29.1031 4.67696ZM138 107C141.314 107 144 104.314 144 101C144 97.6863 141.314 95 138 95C134.686 95 132 97.6863 132 101C132 104.314 134.686 107 138 107Z" fill="#4F46E5"/>
+        </svg>                      
+      </a>        
+      <p class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2022 - Raed Ben Maghzouz</p>
+      <span class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
+          <a href="https://www.facebook.com/raed.benmaghzouz/" target="_blank" class="text-gray-400 hover:text-gray-500">
               <span class="sr-only">Facebook</span>
-              <svg id="mdi-gmail" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M20,18H18V9.25L12,13L6,9.25V18H4V6H5.2L12,10.25L18.8,6H20M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"></path>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
               </svg>
           </a>
-        </span>
+
+          <a href="https://github.com/BenMaghzouz-Raed" target="_blank" class="text-gray-400 hover:text-gray-500">
+              <span class="sr-only">GitHub</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+              </svg>
+          </a>
+
+          <a href="https://www.linkedin.com/in/raed-ben-maghzouz/" target="_blank" class="text-gray-400 hover:text-gray-500">
+              <span class="sr-only">LinkedIn</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="none" fill-rule="evenodd" d="M0 0h24v24H0z"/><path d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z" clip-rule="evenodd"/>                
+              </svg>
+          </a>
+
+          <a href="mailto:raed.maghzouz@gmail.com" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">Facebook</span>
+            <svg id="mdi-gmail" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20,18H18V9.25L12,13L6,9.25V18H4V6H5.2L12,10.25L18.8,6H20M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"></path>
+            </svg>
+        </a>
+      </span>
     </div>
 </section>
 
